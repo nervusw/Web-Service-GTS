@@ -1,0 +1,54 @@
+.alert{
+    position: absolute;
+    padding-right: 55px;
+    width: 300px;
+    margin-top: 40px;
+    border-radius: 15px;
+    /*background-color: #FFF;*/
+    /*color: #283896;*/
+    -webkit-box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);
+    display: none;
+    z-index: 99999;
+    top: 5px;
+}
+
+/*.alert-success hr{*/
+    /*border-color: #008ECF;*/
+/*}*/
+/*!**!*/
+/*!*alert-warning*!*/
+
+/*.alert-warning hr{*/
+    /*border-color: #E5A218;*/
+/*}*/
+/*!**!*/
+/*!*alert-error*!*/
+/*.alert-error button{*/
+    /*background-color: #FF0000;*/
+    /*color:#FFF;*/
+/*}*/
+
+/*.alert-error hr{*/
+    /*border-color: #FF0000;*/
+/*}*/
+/*!**!*/
+
+.hr-alert {
+    margin-top: 0px;
+    margin-bottom: 10px;
+    border: 0;
+    border-top: 4px solid #eee;
+}
+
+.btn-float-alert{
+    position: absolute;
+    right:-20px;
+    top:-20px;
+}
+
+.pull-right {
+    position: absolute;
+    right: 5%;
+}

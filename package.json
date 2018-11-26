@@ -1,0 +1,24 @@
+{
+  "name": "WebService-NervuS",
+  "version": "1.0.0",
+  "description": "",
+  "main": "WebService.js",
+  "dependencies": {
+    "colors": "^1.2.1",
+    "express-session": "^1.15.6",
+    "mysql": "^2.15.0",
+    "npm": "^6.2.0",
+    "puppeteer-extra": "^2.1.1",
+    "puppeteer-extra-plugin-flash": "^2.1.1",
+    "puppeteer-extra-plugin-user-data-dir": "^2.1.1",
+    "puppeteer-extra-plugin-user-preferences": "^2.1.1",
+    "utf8": "^3.0.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "node Webservice.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
