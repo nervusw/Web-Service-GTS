@@ -163,7 +163,12 @@ http.createServer(function (req, res) {
             console.log("------------------------");
         res.writeHead(200, replie_head);
         if (status["controllers"] && status["model"] && status["database"]) {
-            var reqP = load.helper.url.verify_request(req.url);
+            req.url = req.url.split("/").map(prop => {
+                if (prop != "api")
+                    return prop;
+            }).join("/").replace("//", "/");
+
+            let reqP = load.helper.url.verify_request(req.url);
             if (reqP["status"]) {
                 try {
                     controllers[reqP["data"]["controller"]][reqP["data"]["funcao"]](reqP["data"]["params"], req, res);
